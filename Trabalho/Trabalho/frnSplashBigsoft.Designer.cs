@@ -65,13 +65,13 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Consolas", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.ForeColor = SystemColors.ButtonHighlight;
-            label2.Location = new Point(296, 22);
+            label2.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.Red;
+            label2.Location = new Point(341, 9);
             label2.Name = "label2";
-            label2.Size = new Size(246, 28);
+            label2.Size = new Size(117, 35);
             label2.TabIndex = 2;
-            label2.Text = "Nome Do Aplicativo";
+            label2.Text = "@Pintest";
             label2.Click += label2_Click;
             // 
             // frnSplashBigsoft

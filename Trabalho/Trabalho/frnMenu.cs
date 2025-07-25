@@ -7,17 +7,6 @@ namespace Trabalho
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            foreach (Form formAberto in Application.OpenForms)
-                if (formAberto is frnAlbum)
-                {
-                    formAberto.Focus();
-                    return;
-                }
-            frnAlbum album = new frnAlbum();
-            album.Show();
-        }
 
         private void frnMenu_Load(object sender, EventArgs e)
         {
@@ -25,15 +14,15 @@ namespace Trabalho
             frnSplash splach = new frnSplash();
             splach.Show();
             Application.DoEvents();
-            Thread.Sleep(3000);
+            Thread.Sleep(1500);
             splach.Close();
 
             InitializeComponent();
             frnSplashBigsoft splash = new frnSplashBigsoft();
             splash.Show();
             Application.DoEvents();
-            Thread.Sleep(3000);
-            splach.Close();
+            Thread.Sleep(1500);
+            splash.Close();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -43,6 +32,7 @@ namespace Trabalho
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            Cursor = Cursors.WaitCursor;
             foreach (Form formAberto in Application.OpenForms)
                 if (formAberto is frnGaleria)
                 {
@@ -51,6 +41,7 @@ namespace Trabalho
                 }
             frnGaleria galeria = new frnGaleria();
             galeria.Show();
+            Cursor = Cursors.Default;
         }
     }
 }

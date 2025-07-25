@@ -32,6 +32,7 @@
             label2 = new Label();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -42,20 +43,19 @@
             label2.ForeColor = SystemColors.ButtonHighlight;
             label2.Location = new Point(291, 16);
             label2.Name = "label2";
-            label2.Size = new Size(246, 28);
+            label2.Size = new Size(0, 28);
             label2.TabIndex = 5;
-            label2.Text = "Nome Do Aplicativo";
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Consolas", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ButtonHighlight;
-            label1.Location = new Point(278, 413);
+            label1.Location = new Point(291, 413);
             label1.Name = "label1";
-            label1.Size = new Size(259, 28);
+            label1.Size = new Size(246, 28);
             label1.TabIndex = 4;
-            label1.Text = "Produced by BigSoft";
+            label1.Text = "Produced  by VITOR";
             // 
             // pictureBox1
             // 
@@ -68,12 +68,24 @@
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = Color.Red;
+            label3.Location = new Point(335, 9);
+            label3.Name = "label3";
+            label3.Size = new Size(117, 35);
+            label3.TabIndex = 6;
+            label3.Text = "@Pintest";
+            // 
             // frnSplash
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(800, 450);
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
@@ -91,5 +103,6 @@
         private Label label2;
         private Label label1;
         private PictureBox pictureBox1;
+        private Label label3;
     }
 }

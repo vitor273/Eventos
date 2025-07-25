@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "naQSXqIAuJBGiGbQMdUzBVFOvU+GdUDQmXowMxHPAP/YguIvkKt9+96xItzzfioKqFOW3UJvOl2cct/77uJH9Q==",
+  "dgSpecHash": "ivq8U44HqHNPEBXOGpstWhwlDCVWrR/Aj/Irvt2jzOmx92WOcJEPAjoUI+aTpBbpE9410XCv9ecnuEy3Wi3JSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\source\\repos\\Trabalho\\Trabalho\\Trabalho.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\Downloads\\Trabalho\\Trabalho\\Trabalho.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512"
   ],
