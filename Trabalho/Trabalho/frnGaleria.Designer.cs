@@ -92,7 +92,6 @@
             pictureBox1.TabIndex = 10;
             pictureBox1.TabStop = false;
             pictureBox1.LoadCompleted += pictureBox5_LoadCompleted;
-            pictureBox1.Click += pictureBox24_Click_1;
             pictureBox1.Layout += frnGaleria_Layout;
             // 
             // button1
@@ -130,7 +129,6 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 42;
             pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox24_Click_1;
             // 
             // pictureBox3
             // 
@@ -140,7 +138,6 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 43;
             pictureBox3.TabStop = false;
-            pictureBox3.Click += pictureBox24_Click_1;
             // 
             // pictureBox4
             // 
@@ -150,7 +147,6 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 44;
             pictureBox4.TabStop = false;
-            pictureBox4.Click += pictureBox24_Click_1;
             // 
             // pictureBox5
             // 
@@ -160,7 +156,6 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 45;
             pictureBox5.TabStop = false;
-            pictureBox5.Click += pictureBox24_Click_1;
             // 
             // pictureBox6
             // 
@@ -170,7 +165,6 @@
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox6.TabIndex = 46;
             pictureBox6.TabStop = false;
-            pictureBox6.Click += pictureBox24_Click_1;
             // 
             // pictureBox7
             // 
@@ -180,7 +174,6 @@
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 47;
             pictureBox7.TabStop = false;
-            pictureBox7.Click += pictureBox24_Click_1;
             // 
             // pictureBox8
             // 
@@ -190,7 +183,6 @@
             pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 48;
             pictureBox8.TabStop = false;
-            pictureBox8.Click += pictureBox24_Click_1;
             // 
             // pictureBox9
             // 
@@ -200,7 +192,6 @@
             pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox9.TabIndex = 49;
             pictureBox9.TabStop = false;
-            pictureBox9.Click += pictureBox24_Click_1;
             // 
             // pictureBox10
             // 
@@ -210,7 +201,6 @@
             pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox10.TabIndex = 50;
             pictureBox10.TabStop = false;
-            pictureBox10.Click += pictureBox24_Click_1;
             // 
             // pictureBox11
             // 
@@ -220,7 +210,6 @@
             pictureBox11.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox11.TabIndex = 51;
             pictureBox11.TabStop = false;
-            pictureBox11.Click += pictureBox24_Click_1;
             // 
             // pictureBox12
             // 
@@ -230,7 +219,6 @@
             pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox12.TabIndex = 52;
             pictureBox12.TabStop = false;
-            pictureBox12.Click += pictureBox24_Click_1;
             // 
             // pictureBox13
             // 
@@ -240,7 +228,6 @@
             pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox13.TabIndex = 53;
             pictureBox13.TabStop = false;
-            pictureBox13.Click += pictureBox24_Click_1;
             // 
             // pictureBox14
             // 
@@ -250,7 +237,6 @@
             pictureBox14.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox14.TabIndex = 54;
             pictureBox14.TabStop = false;
-            pictureBox14.Click += pictureBox24_Click_1;
             // 
             // pictureBox15
             // 
@@ -260,7 +246,6 @@
             pictureBox15.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox15.TabIndex = 55;
             pictureBox15.TabStop = false;
-            pictureBox15.Click += pictureBox24_Click_1;
             // 
             // pictureBox16
             // 
@@ -270,7 +255,6 @@
             pictureBox16.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox16.TabIndex = 56;
             pictureBox16.TabStop = false;
-            pictureBox16.Click += pictureBox24_Click_1;
             // 
             // pictureBox17
             // 
@@ -280,7 +264,6 @@
             pictureBox17.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox17.TabIndex = 57;
             pictureBox17.TabStop = false;
-            pictureBox17.Click += pictureBox24_Click_1;
             // 
             // pictureBox18
             // 
@@ -290,7 +273,6 @@
             pictureBox18.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox18.TabIndex = 58;
             pictureBox18.TabStop = false;
-            pictureBox18.Click += pictureBox24_Click_1;
             // 
             // pictureBox19
             // 
@@ -300,7 +282,6 @@
             pictureBox19.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox19.TabIndex = 59;
             pictureBox19.TabStop = false;
-            pictureBox19.Click += pictureBox24_Click_1;
             // 
             // pictureBox20
             // 
@@ -310,7 +291,6 @@
             pictureBox20.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox20.TabIndex = 59;
             pictureBox20.TabStop = false;
-            pictureBox20.Click += pictureBox24_Click_1;
             // 
             // pictureBox21
             // 
@@ -320,7 +300,6 @@
             pictureBox21.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox21.TabIndex = 60;
             pictureBox21.TabStop = false;
-            pictureBox21.Click += pictureBox24_Click_1;
             // 
             // pictureBox22
             // 
@@ -330,7 +309,6 @@
             pictureBox22.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox22.TabIndex = 61;
             pictureBox22.TabStop = false;
-            pictureBox22.Click += pictureBox24_Click_1;
             // 
             // pictureBox23
             // 
@@ -340,7 +318,6 @@
             pictureBox23.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox23.TabIndex = 62;
             pictureBox23.TabStop = false;
-            pictureBox23.Click += pictureBox24_Click_1;
             // 
             // pictureBox24
             // 
@@ -350,7 +327,6 @@
             pictureBox24.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox24.TabIndex = 63;
             pictureBox24.TabStop = false;
-            pictureBox24.Click += pictureBox24_Click_1;
             // 
             // panel1
             // 

@@ -7,6 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
+using System.Text.Json.Nodes;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System.Security.Policy;
 
 namespace Trabalho
 {
@@ -43,7 +48,7 @@ namespace Trabalho
             //pic.Load("https://cdn2.thecatapi.com/images/4o.jpg");
         }
 
-        private void CarregarImagens()
+        private async void CarregarImagens()
         {
             PictureBox[] array = new PictureBox[] { pictureBox1, pictureBox2, pictureBox3, pictureBox4, pictureBox5, pictureBox6, pictureBox7, pictureBox8, pictureBox9, pictureBox10, pictureBox11, pictureBox12, pictureBox13, pictureBox14, pictureBox15, pictureBox16, pictureBox17, pictureBox18, pictureBox19, pictureBox20, pictureBox21, pictureBox22, pictureBox23, pictureBox24 };
             List<int> valores = new List<int>();
@@ -74,6 +79,18 @@ namespace Trabalho
                     case 2:
                         item.Load("https://randomfox.ca/images/" + numero + ".jpg");
                         break;
+                    case 3:
+                        try
+                        {
+                            string jsonResponse = await FetchDataAsync("https://api.thecatapi.com/v1/images/search");
+                            string data = DisplayImage(jsonResponse);
+                            item.Load(data);
+                        }
+                        catch (Exception er)
+                        {
+                            MessageBox.Show($"Erro: {er.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                        break;
                 }
                 valores.Add(numero);
             }
@@ -86,9 +103,29 @@ namespace Trabalho
             CarregarImagens();
         }
 
-        private void pictureBox24_Click_1(object sender, EventArgs e)
+        private async Task<string> FetchDataAsync(string apiUrl)
         {
-            
+            using (HttpClient client = new HttpClient())
+            {
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
+                if (response.IsSuccessStatusCode)
+                {
+                    return await response.Content.ReadAsStringAsync();
+                }
+                else
+                {
+                    throw new HttpRequestException($"Falha. Não consegui recuperar os dados! Código{response.StatusCode}");
+                }
+            }
         }
+
+        private string DisplayImage(string jsonResponse)
+        {
+           JObject data = JObject.Parse(jsonResponse);
+           //string url = data["url"].ToString();
+           string url = "https://cdn2.thecatapi.com/images/bp5.jpg";
+           return url;
+        }
+
     }
 }

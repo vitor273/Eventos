@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Downloads\\Trabalho\\Trabalho\\Trabalho.csproj": {}
+    "C:\\Eventos-main\\Trabalho\\Trabalho\\Trabalho.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Downloads\\Trabalho\\Trabalho\\Trabalho.csproj": {
+    "C:\\Eventos-main\\Trabalho\\Trabalho\\Trabalho.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Downloads\\Trabalho\\Trabalho\\Trabalho.csproj",
+        "projectUniqueName": "C:\\Eventos-main\\Trabalho\\Trabalho\\Trabalho.csproj",
         "projectName": "Trabalho",
-        "projectPath": "C:\\Users\\Aluno\\Downloads\\Trabalho\\Trabalho\\Trabalho.csproj",
+        "projectPath": "C:\\Eventos-main\\Trabalho\\Trabalho\\Trabalho.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Downloads\\Trabalho\\Trabalho\\obj\\",
+        "outputPath": "C:\\Eventos-main\\Trabalho\\Trabalho\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,10 @@
             "MetroModernUI": {
               "target": "Package",
               "version": "[1.4.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ivq8U44HqHNPEBXOGpstWhwlDCVWrR/Aj/Irvt2jzOmx92WOcJEPAjoUI+aTpBbpE9410XCv9ecnuEy3Wi3JSg==",
+  "dgSpecHash": "1WhFEBhZUDjE7yfg1RUyveM2mxqIPpuf5tbUbU3RLA6bgn4etmEpjuctSve8ZivIB+qL2VY0XppNVijNcbHZNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Downloads\\Trabalho\\Trabalho\\Trabalho.csproj",
+  "projectFilePath": "C:\\Eventos-main\\Trabalho\\Trabalho\\Trabalho.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Aluno\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512"
+    "C:\\Users\\Aluno\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": [
     {
