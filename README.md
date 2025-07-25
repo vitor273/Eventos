@@ -19,7 +19,7 @@ Figura 2: Splash da BigSoft
 
 ## Menu 
 <div>
-<img src="https://github.com/vitor273/Eventos/blob/main/res/menu.png">
+<img src="https://github.com/vitor273/Eventos/blob/main/res/splash2.PNG">
 <br>
 Figura 3: Menu
 </div>
